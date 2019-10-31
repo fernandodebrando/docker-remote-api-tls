@@ -37,10 +37,10 @@ Você encontra o client Docker para Linux, MacOS e Windows em [download.docker.c
 ### Criar alias (para Linux)
 
 Alias para conexão HTTPS com host Docker:
-`alias dockerhost="docker --tlsverify -H=hostname.net:2376 --tlscacert=/home/user/cert/ca.pem --tlscert=/home/user/cert/cert.pem --tlskey=/home/user/cert/key.pem"`
+`alias dockerhost="docker --tlsverify -H=myserver.example.com:2376 --tlscacert=/home/user/cert/ca.pem --tlscert=/home/user/cert/cert.pem --tlskey=/home/user/cert/key.pem"`
 
 ### Criar .bat (para Windows)
 
 Crie um arquivo "dockerhost.bat".
 Para conexão HTTPS com host Docker:
-`alias dockerhost="docker --tlsverify -H=hostname.net:2376 --tlscacert=/home/user/cert/ca.pem --tlscert=/home/user/cert/cert.pem --tlskey=/home/user/cert/key.pem"`  
+`alias dockerhost="docker --tlsverify -H=myserver.example.com:2376 --tlscacert=/home/user/cert/ca.pem --tlscert=/home/user/cert/cert.pem --tlskey=/home/user/cert/key.pem"`  
