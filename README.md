@@ -44,3 +44,6 @@ Alias para conexão HTTPS com host Docker:
 Crie um arquivo "dockerhost.bat".
 Para conexão HTTPS com host Docker:
 `alias dockerhost="docker --tlsverify -H=myserver.example.com:2376 --tlscacert=/home/user/cert/ca.pem --tlscert=/home/user/cert/cert.pem --tlskey=/home/user/cert/key.pem"`  
+
+*Obs.: Esta solução se baseou em alguns scripts criados por @kekru em [kekru/docker-remote-api-tls
+](https://github.com/kekru/docker-remote-api-tls).*
